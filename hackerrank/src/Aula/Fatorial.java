@@ -8,6 +8,7 @@ public class Fatorial {
         Scanner scan = new Scanner(System.in);
         System.out.print("Digite um valor: ");
         Integer n = scan.nextInt();
+        scan.close();
         Integer fatorial = 1;
         for(int i = 1; i <= n; i++){
             fatorial = fatorial * i;
