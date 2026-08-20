@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class AulaFatorial {
 
-
     public static Integer fatorial(Integer n){
         Integer fat = 1;
 
@@ -30,21 +29,14 @@ public class AulaFatorial {
 
     }
 
-
-
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
         System.out.print("Digite um valor: ");
         Integer n = scan.nextInt();
         scan.close();
 
-
-
         BigInteger resultado = bigFatorial(n);
-
-
         System.out.println("Valor fatorial do numero: " + resultado);
-
 
     }
 
