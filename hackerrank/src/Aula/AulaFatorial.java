@@ -38,6 +38,8 @@ public class AulaFatorial {
         Integer n = scan.nextInt();
         scan.close();
 
+
+
         BigInteger resultado = bigFatorial(n);
 
 
