@@ -1,4 +1,4 @@
-package app;
+package app.att_sala;
 import java.util.Scanner;
 public class Tempo {
     public static void main(String [] args){

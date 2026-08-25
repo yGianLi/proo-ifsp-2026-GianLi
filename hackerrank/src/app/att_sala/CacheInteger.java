@@ -1,6 +1,4 @@
-package app;
-
-import java.util.Scanner;
+package app.att_sala;
 
 public class CacheInteger {
     public static void main(String[] args){

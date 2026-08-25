@@ -1,4 +1,4 @@
-package app;
+package app.att_sala;
 
 public class Welcome {
     public static void main(String[] args) {

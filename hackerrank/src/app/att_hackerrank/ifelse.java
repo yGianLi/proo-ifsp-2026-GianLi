@@ -1,10 +1,6 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
+package app.att_hackerrank;
+
 import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
 
 public class ifelse {
 
