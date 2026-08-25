@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Exemplo01 {
 
     public static void main(String[] args) {
+        // alocação estática = valor não muda, ele é exato na hora que é declarado
         // tipo [] nome = new tipo [tamanho]
         boolean[] sensores = new boolean[5];
 
@@ -25,6 +26,9 @@ public class Exemplo01 {
         }
         System.out.println("-----------------");
         System.out.println(Arrays.toString(sensores)); // printa os valores dos arrys desta forma = [0, 1, 2, 3, 4]
+
+        // sensores[5] = true;
+        // vai dar erro e da "ArrayIndexOutBoundsException" que o array está fora dos parâmetros do array;
 
     }
 
