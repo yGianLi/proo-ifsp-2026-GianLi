@@ -12,8 +12,8 @@ public class Loop2{
             int n = in.nextInt();
             for(int j = 1; j < n ; j++){
                 int t1 = a + (j * b);
-                t1 +
-                System.out.println(a + " + " + j + " * " + b + " = " + t1);
+//                t1 +
+//                System.out.println(a + " + " + j + " * " + b + " = " + t1);
             };
         }
         in.close();
