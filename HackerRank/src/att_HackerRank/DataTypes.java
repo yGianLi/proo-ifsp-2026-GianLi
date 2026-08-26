@@ -1,4 +1,4 @@
-package app.att_hackerrank;
+package att_HackerRank;
 
 import java.util.*;
 import java.io.*;

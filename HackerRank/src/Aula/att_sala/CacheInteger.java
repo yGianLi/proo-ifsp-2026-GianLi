@@ -1,4 +1,4 @@
-package app.att_sala;
+package Aula.att_sala;
 
 public class CacheInteger {
     public static void main(String[] args){
