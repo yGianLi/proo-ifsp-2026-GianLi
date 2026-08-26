@@ -1,4 +1,4 @@
-package att_HackerRank;
+package att_HackerRank.semana02;
 
 import java.util.*;
 

@@ -1,10 +1,6 @@
-package att_HackerRank;
+package att_HackerRank.semana03;
 
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class EndOfFile {
 

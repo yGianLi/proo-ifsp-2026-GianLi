@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/hackerrank/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank/hackerrank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/hackerrank.iml" filepath="$PROJECT_DIR$/HackerRank/hackerrank.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/proo-ifsp-2026-GianLi.iml" filepath="$PROJECT_DIR$/.idea/proo-ifsp-2026-GianLi.iml" />
     </modules>
   </component>
