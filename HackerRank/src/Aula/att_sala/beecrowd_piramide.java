@@ -3,7 +3,7 @@ package Aula.att_sala;
 import java.util.Scanner;
 
 
-public class beecrowd {
+public class beecrowd_piramide {
 
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
