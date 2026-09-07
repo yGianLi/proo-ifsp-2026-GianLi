@@ -67,3 +67,21 @@ O tipo primitivo `boolean` é utilizado para armazenar valores lógicos. Ele pod
 Os erros produzidos foram: tentar armazenar um texto em uma variável do tipo `int`, tentar armazenar um número decimal em uma variável do tipo `int` e utilizar uma variável que não havia sido declarada.
 
 As mensagens de erro identificaram os problemas corretamente e foram claras, pois indicaram o local do erro e ajudaram a entender o motivo do problema e como ele poderia ser corrigido.
+
+### Atividade 4:
+## a) :
+# IntelliJ IDEA vs NetBeans
+
+O **IntelliJ IDEA** possui uma interface mais **bonita, moderna e estilosa** que o NetBeans.  
+Também se destaca pelo **autocomplete, refatoração, debugger e integração com Git**.  
+O **NetBeans** é mais simples, gratuito e open source, sendo muito focado em **Java**.  
+No geral, prefiro o **IntelliJ** pela aparência e pela maior quantidade de recursos.
+
+## b) :
+prompt: Explique o que é IDE e qual sua importância para o desenvolvimento de software??
+
+resposta IA: 
+# O que é uma IDE?
+
+IDE significa **Ambiente de Desenvolvimento Integrado**. É um programa que reúne ferramentas como **editor de código, compilador, debugger e gerenciamento de projetos** em um só lugar.  
+Ela é importante porque **facilita e agiliza o desenvolvimento**, ajudando o programador a escrever, testar e corrigir códigos de forma mais eficiente.
