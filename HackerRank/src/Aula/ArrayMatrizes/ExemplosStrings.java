@@ -42,7 +42,7 @@ public class ExemplosStrings {
         //Sub gera substrings e determina qual tamanho eu quero repartir
 
         int tamProntuario = 8;
-        int posProntuario = proc4.indexOf(;);
+        int posProntuario = proc4.indexOf(9);
 
         String sub = proc4.substring(2,10);
         System.out.println(proc4);
