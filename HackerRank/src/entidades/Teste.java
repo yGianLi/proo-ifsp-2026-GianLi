@@ -2,8 +2,6 @@ package entidades;
 
 import exercicios.DataHora;
 
-import javax.xml.crypto.Data;
-
 public class Teste {
     public static void main(String[] args) {
         Pessoa p1 = new Pessoa();
@@ -16,7 +14,7 @@ public class Teste {
         System.out.println(p1.qualUltimoNome());
 
 
-        System.out.println(findDay(5,7,2015));
+        System.out.println(DataHora.findDay(5, 7, 2015));
 
     }
 
