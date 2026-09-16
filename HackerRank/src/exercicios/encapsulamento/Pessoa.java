@@ -9,7 +9,7 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public Pessoa(Pessoa outra) {
+    public Pessoa(Pessoa outra) { // Construtor cópia as variaveis da pessoa
         this(outra.nome, outra.idade); // acessa os atributos privados de "outra" pois estamos na mesma classe
     }
 
