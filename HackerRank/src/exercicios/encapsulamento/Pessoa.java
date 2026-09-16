@@ -1,19 +1,31 @@
 package exercicios.encapsulamento;
 
 public class Pessoa {
-    private String nome1;
+    private String nome;
     private int idade;
 
-    public Pessoa(String nome1, int idade) {
-        nome1 = nome1;
-        idade = idade;
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
     }
 
-    public String getNome1() {
-        return this.nome1;
+    public Pessoa(Pessoa outra) {
+        this(outra.nome, outra.idade); // acessa os atributos privados de "outra" pois estamos na mesma classe
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public int getIdade() {
-        return this.idade;
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }

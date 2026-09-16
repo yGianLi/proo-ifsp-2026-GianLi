@@ -1,87 +1,108 @@
-## Revisão:
+# 📘 Revisão — Programação Orientada a Objetos & UML
 
-- Conceitos 0.0:
+---
 
-**Classe**  
-é um tipo abstrato de dados
+## 1. Conceitos Básicos
 
-tem propriedades ( atributos e dados ) + métodos ( funções )
+### 🔹 Classe
 
-Exemplo( são tipos de dados abstratos ) :
+Uma **classe** é um **tipo abstrato de dados**.
 
-_String_ nome;    
-_Scanner_ teclado;
+Ela possui:
+- **Propriedades** (atributos/dados)
+- **Métodos** (funções/comportamentos)
 
-(propriedades(dados) da classe "Carro")
+> 💡 Tipos como `String` e `Scanner` também são exemplos de tipos de dados abstratos (classes já prontas do Java).
 
-Carro: 
--cor:
--motor;
--tamanho;
--modelo;
--torque;
--preço;
+**Exemplo — Classe `Carro`:**
 
-+acelerar();
-+virar();
-+ligar();
-+desligar();
-+frear();
+| Atributos    | Métodos          |
+|--------------|------------------|
+| `cor`        | `acelerar()`     |
+| `motor`      | `virar()`        |
+| `tamanho`    | `ligar()`        |
+| `modelo`     | `desligar()`     |
+| `torque`     | `frear()`        |
+| `preco`      |                  |
 
-Objeto é uma INSTÂNCIA da classe
+---
 
-Carro _fusca_ = new Carro();  aqui "fusca" é um objeto
+### 🔹 Objeto
 
-Carro _porshe_ = new Carro(); aqui "porshe" é um objeto
+Um **objeto** é uma **instância** de uma classe.
 
-ex: Médico -> Classe
-Cirurgia -> Classe
+```java
+Carro fusca = new Carro();   // "fusca" é um objeto
+Carro porsche = new Carro(); // "porsche" é um objeto
+```
 
-+realizarCirurgia();
+**Outro exemplo — Médico realizando uma Cirurgia:**
 
-Medica m1 = new Medico();
+```java
+Medico m1 = new Medico();
 Cirurgia c1 = new Cirurgia();
 
-m1.realizarCirurgia(c1); -> aqui é um método
+m1.realizarCirurgia(c1); // chamada de método
+```
 
-## Relacionamento de Classes:
+Aqui, `Medico` e `Cirurgia` são classes, e `realizarCirurgia()` é um **método** da classe `Medico`, que recebe um objeto `Cirurgia` como parâmetro.
 
-- **UML** (Linguaguem Modelagem Unificada)
+---
 
-Diagrama de classes:
+## 2. Relacionamento de Classes
 
-é representada por retângulos e dentro dela tem: 
-- Nome da Classe
-- Atributos
-- Métodos
+### 🔹 UML (Unified Modeling Language)
 
-Quando a informação é apresentada com (-) significa que o valor é privado e quando a informação é apresentada com (+) significa que o valor é público;
+A **UML** é usada para representar visualmente a estrutura de um sistema orientado a objetos, por meio de **diagramas de classes**.
 
-### Ex:
---------------------------
+**Um diagrama de classe é representado por um retângulo dividido em três partes:**
 
-- Nome da Classe: Cirurgia
-- Atributos: -duração, -risco, -paciente.
-- Métodos: +agendar(), +executar();
+1. Nome da Classe
+2. Atributos
+3. Métodos
 
---------------------------
+**Visibilidade dos membros:**
 
-- Nome da Classe: Medico
-- Atributos: -nome, -especialidade.
-- Métodos: +realizar();
+| Símbolo | Significado |
+|:-------:|-------------|
+| `-`     | **Privado** |
+| `+`     | **Público** |
 
---------------------------
+---
 
-Cirurgia ----realizar----> Medico
+### 📦 Exemplos de Diagramas de Classe
 
-### Tipos de relacionamentos
+**Classe: `Cirurgia`**
 
-- Associação
-- Agregação
-- Composiçao
-- Herança
-- Interfaces/Implementação
+| Atributos     | Métodos        |
+|---------------|----------------|
+| `- duracao`   | `+ agendar()`  |
+| `- risco`     | `+ executar()` |
+| `- paciente`  |                |
 
+**Classe: `Medico`**
 
+| Atributos          | Métodos        |
+|--------------------|----------------|
+| `- nome`           | `+ realizar()` |
+| `- especialidade`  |                |
 
+**Relação entre as classes:**
 
+```
+Cirurgia ── realizar ──▶ Medico
+```
+
+---
+
+## 3. Tipos de Relacionamentos entre Classes
+
+| Tipo                     | Descrição rápida |
+|--------------------------|-------------------|
+| **Associação**           | Ligação simples entre classes |
+| **Agregação**            | Relação "todo-parte" fraca (partes existem independentemente) |
+| **Composição**           | Relação "todo-parte" forte (partes dependem do todo) |
+| **Herança**              | Uma classe estende outra (relação "é um") |
+| **Interfaces / Implementação** | Uma classe implementa um contrato definido por uma interface |
+
+---
