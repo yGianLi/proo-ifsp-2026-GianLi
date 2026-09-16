@@ -35,6 +35,6 @@ public class TesteProduto {
 
         //System.out.println(pessoa.getNome1());
         //System.out.println(pessoa.getIdade());
-        //System.out.println(l1);
+        System.out.println(l1);
     }
 }

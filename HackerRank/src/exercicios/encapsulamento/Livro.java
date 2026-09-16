@@ -14,7 +14,11 @@ public class Livro {
         this.paginas = 0;
     }
 
-
+    @Override // serve para informar ao compilador que você está sobrescrevendo um método que já existe na classe pai (superclasse) ou em uma interface.
+    public String toString() {
+        return "Livro: " + titulo + " | Páginas: " + paginas;
+    }
 }
+
 
 

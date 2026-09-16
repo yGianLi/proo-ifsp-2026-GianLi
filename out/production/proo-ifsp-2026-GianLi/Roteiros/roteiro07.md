@@ -206,7 +206,12 @@ Na prática, quando usamos `this(lado, lado)`, o Java chama primeiro o outro con
 
 Atividade 7: 
 
+1. Por que p1 e p2 continuam sendo dois objetos independentes na memória, mesmo tendo os mesmos valores iniciais? 
 
+R: Porque new Pessoa(p1) cria um novo objeto na memória. O construtor de cópia apenas copia os valores de p1 para o novo objeto p2.
+Assim, mesmo que inicialmente tenham os mesmos valores, p1 e p2 são objetos diferentes.
 
+2. Dentro do construtor de cópia, por que é possível acessar outra.nome e outra.idade dire tamente, mesmo sendo atributos private? 
 
+R: Porque o construtor está dentro da própria classe Pessoa. Em Java, membros private podem ser acessados diretamente por qualquer método ou construtor da mesma classe. Por isso podemos fazer: ``` this(outra.nome, outra.idade) ```; mesmo nome e idade sendo private.
 
