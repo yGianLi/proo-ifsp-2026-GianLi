@@ -215,3 +215,81 @@ Assim, mesmo que inicialmente tenham os mesmos valores, p1 e p2 são objetos dif
 
 R: Porque o construtor está dentro da própria classe Pessoa. Em Java, membros private podem ser acessados diretamente por qualquer método ou construtor da mesma classe. Por isso podemos fazer: ``` this(outra.nome, outra.idade) ```; mesmo nome e idade sendo private.
 
+3. Apoio da IA
+
+Prompt: Por que um construtor de cópia é útil na prática e qual a diferença entre copiar um objeto e copiar apenas a referência (Pessoa p2 = p1;). 
+
+Resposta da IA(Claude): Um construtor de cópia é útil porque permite criar um objeto com os mesmos valores de outro, mas totalmente independente dali em diante — útil para guardar um "snapshot" antes de alterações, evitar que um método modifique acidentalmente o objeto original, ou criar variações sem afetar o registro original, tudo sem precisar copiar atributo por atributo manualmente (o que seria repetitivo e sujeito a esquecimentos). A diferença fundamental está em como cada abordagem trata a memória: com new Pessoa(p1), a JVM aloca um novo objeto e copia os valores para lá, resultando em dois objetos distintos (p1 e p2 em endereços diferentes), então alterar um não afeta o outro. Já com Pessoa p2 = p1; (sem new), nenhum objeto novo é criado — apenas o endereço de memória de p1 é copiado para p2, fazendo as duas variáveis apontarem para o mesmo objeto; nesse caso, alterar p2 também altera o que p1 reflete, pois não existem duas caixas, e sim uma única caixa com dois nomes.
+
+Resposta: O construtor de cópia permite criar um novo objeto com os mesmos valores de outro objeto, mas de forma independente. Isso é útil quando queremos fazer uma cópia sem alterar o objeto original.
+
+Com `new Pessoa(p1)`, um novo objeto é criado e recebe os valores de `p1`. Assim, são dois objetos diferentes e alterar um não altera o outro.
+
+Já com `Pessoa p2 = p1;`, nenhum objeto novo é criado. As duas variáveis apontam para o mesmo objeto. Portanto, se alterarmos `p2`, a alteração também será refletida em `p1`.
+
+Atividade 8:
+
+1. O que determina qual das versões de somar será executada em cada chamada: o nome do método, o tipo de retorno, ou os parâmetros? 
+
+R: O que determina qual versão é executada são os parâmetros (tipo e quantidade) passados na chamada — nunca o nome do método (que é o mesmo nas três versões) nem o tipo de retorno. O compilador olha para os argumentos ((2,3), (2,3,4), (2.5,3.5)) e escolhe a assinatura correspondente.
+
+2. Seria possível criar uma versão public double somar(int a, int b) além da já existente public int somar(int a, int b)? Teste e explique o que o compilador informa.
+
+R: Não seria possível. Criar public double somar(int a, int b) junto de public int somar(int a, int b) gera erro de compilação, porque as duas têm exatamente a mesma assinatura (mesmo nome, mesmos tipos e quantidade de parâmetros: int, int). O tipo de retorno não faz parte da assinatura do método, então não é suficiente para diferenciá-los. O compilador acusa algo como: ```error: method somar(int,int) is already defined in class Calculadora```
+
+3. Apoio da IA
+
+Prompt: Por que o tipo de retorno sozinho não é suficiente para diferenciar métodos sobrecarregados em Java.
+
+Resposta da IA(Claude): O compilador decide qual método chamar observando apenas a chamada em si — nome do método, mais tipo e quantidade dos argumentos — nunca o que será feito com o valor retornado. Se dois métodos tivessem a mesma assinatura mas retornos diferentes, como int somar(int a, int b) e double somar(int a, int b), uma chamada como calc.somar(2, 3) seria ambígua: os argumentos combinam igualmente bem com as duas versões, e o compilador precisaria resolver a chamada antes de saber o que será feito com o resultado (por exemplo, System.out.println(calc.somar(2, 3)); não dá nenhuma pista sobre qual retorno é esperado). Por isso, a especificação do Java define a assinatura de um método como nome + tipos e ordem dos parâmetros, deixando o tipo de retorno de fora de propósito — garantindo que a resolução de sobrecarga sempre possa ser feita olhando só para a chamada.
+
+Resposta: O compilador escolhe qual método chamar com base no nome e nos tipos e quantidade dos parâmetros. O tipo de retorno não é considerado para diferenciar métodos.
+
+Por isso, não podemos ter dois métodos com a mesma assinatura e apenas retornos diferentes, como int somar(int, int) e double somar(int, int). O Java não conseguiria saber qual deles deveria chamar. Assim, o tipo de retorno não faz parte da assinatura do método.
+
+Atividade 9: 
+
+1. Depois de adicionar o somar(int... numeros), o que aconteceu quando você chamou somar(3, 4): o compilador reclamou de ambiguidade com o somar(int a, int b) da Atividade 8, ou escolheu a versão de dois parâmetros? Explique com base no resultado observado. 
+
+R: Depois de adicionar somar(int... numeros), a chamada somar(3, 4) não gerou ambiguidade — o compilador escolheu a versão somar(int a, int b) (confirmado pela mensagem "Chamando somar(int, int)" no console). Isso acontece porque o Java resolve sobrecargas em fases de prioridade: primeiro tenta achar um método que combine exatamente com os argumentos sem usar varargs; só recorre à versão varargs como último recurso, quando nenhuma outra opção serve. Como somar(int, int) já casa perfeitamente com (3, 4), a versão varargs nem é considerada.
+
+2. Dentro do método, numeros se comporta como qual estrutura de dados da linguagem Java? 
+
+R: Dentro do método, numeros se comporta como um array de int (int[]). O int... é apenas uma forma sintática mais prática de declarar o parâmetro — o compilador converte automaticamente os argumentos passados na chamada em um array antes de entregá-los ao método. Por isso o for-each funciona normalmente, e chamar somar() sem argumentos resulta em um array vazio (não null), fazendo o for-each simplesmente não iterar e retornar soma 0.
+
+3. Apoio da IA
+
+Prompt: Qual é a ordem de prioridade que o Java usa para escolher entre um método sobrecarregado "exato"e um método com varargs quando ambos poderiam atender à chamada.
+
+Resposta da IA(Claude): O Java resolve a sobrecarga em três fases, testando-as em ordem e parando na primeira que encontrar um método aplicável:
+
+Fase 1 — Correspondência exata, sem conversões nem boxing/unboxing
+O compilador procura um método cujos parâmetros combinem exatamente com os tipos dos argumentos, sem precisar converter nada (nem promoção numérica, nem autoboxing/unboxing, nem varargs). Se achar, usa esse e para por aqui.
+
+Fase 2 — Permite conversões (promoção numérica e autoboxing/unboxing), mas ainda sem varargs
+Se a fase 1 não encontrou nada, o compilador tenta de novo, agora permitindo conversões como int → long → double, ou int → Integer (autoboxing). Varargs continua fora de cogitação nessa fase.
+
+Fase 3 — Permite varargs
+Só se as fases 1 e 2 não resolverem, o compilador considera métodos com parâmetros varargs (int...), tratando os argumentos como se fossem agrupados em um array.
+
+No caso de somar(3, 4) com somar(int, int) e somar(int...) disponíveis: somar(int, int) é encontrado já na Fase 1 (correspondência exata), então o compilador nem chega a avaliar a versão varargs — por isso nunca há ambiguidade entre um método "exato" e um varargs quando o exato existe; varargs só entra em jogo quando nenhuma alternativa mais específica está disponível.
+
+Resposta: 
+O Java resolve a sobrecarga de métodos em três etapas, sempre começando pela opção mais simples.
+
+Na primeira fase, ele procura um método que tenha exatamente os mesmos tipos dos argumentos, sem precisar fazer conversões. Se encontrar, já escolhe esse método.
+
+Na segunda fase, caso não encontre uma correspondência exata, o Java permite algumas conversões, como int para long ou int para Integer. Ainda não considera métodos com varargs.
+
+Na terceira fase, se nenhuma das anteriores funcionar, ele considera os métodos com varargs, como int....
+
+Por exemplo, se existirem somar(int, int) e somar(int...), ao chamar somar(3, 4), o Java escolhe somar(int, int) porque é uma correspondência exata. Por isso, ele nem precisa analisar o varargs.
+
+
+
+
+
+
+
+
+

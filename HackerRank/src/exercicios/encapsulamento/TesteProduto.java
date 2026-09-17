@@ -7,6 +7,36 @@ public class TesteProduto {
         Pessoa pessoa2 = new Pessoa(pessoa);
         Livro l1 = new Livro("Dom Casmurro", 256);
 
+        System.out.println("-----------");
+
+        ContaBancaria conta = new ContaBancaria("Gian");
+
+        conta.depositar(100);
+        System.out.println("Saldo após depósito de 100: " + conta.getSaldo());
+
+        conta.depositar(50);
+        System.out.println("Saldo após depósito de 50: " + conta.getSaldo());
+
+        conta.depositar(-30);
+        System.out.println("Saldo após tentativa de depósito de -30: " + conta.getSaldo());
+
+        System.out.println("-----------");
+
+        Calculadora calc = new Calculadora();
+
+        System.out.println(calc.somar(3, 4));                 // 0 argumentos extras -> deve chamar somar(int, int)
+        System.out.println(calc.somar());                     // 0 argumentos -> varargs
+        System.out.println(calc.somar(5));                    // 1 argumento -> varargs
+        System.out.println(calc.somar(1, 2, 3, 4));           // 4 argumentos -> varargs
+        System.out.println(calc.somar(1, 2, 3, 4, 5, 6));     // 6 argumentos -> varargs
+
+
+        System.out.println(calc.somar(2, 3));         // chama somar(int, int)
+        System.out.println(calc.somar(2, 3, 4));       // chama somar(int, int, int)
+        System.out.println(calc.somar(2.5, 3.5));      // chama somar(double, double)
+
+        System.out.println("-----------");
+
         System.out.println("p1: " + pessoa.getNome() + ", " + pessoa.getIdade());
         System.out.println("p2: " + pessoa2.getNome() + ", " + pessoa2.getIdade());
 
