@@ -16,7 +16,7 @@ public class Metodo {
         for (double v : valores) {
             somaDiferencasQuadrado += Math.pow(v - media, 2);
         }
-        return somaDiferencasQuadrado / valores.length;
+        return somaDiferencasQuadrado / (valores.length - 1);
     }
 
     public static double DesvioPadrao(double[]valores){

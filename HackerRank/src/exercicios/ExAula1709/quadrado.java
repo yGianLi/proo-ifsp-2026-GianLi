@@ -4,6 +4,12 @@ public class quadrado {
 
     public static boolean isQuadradoMagico(int [][] matriz){
         int n = matriz.length;
+        for(int i = 0; i < n; i++){
+            if(matriz[i].length != n){
+                return false;
+            }
+        }
+
         int somaRef = 0;
         for(int i = 0; i < n; i++){
             somaRef += matriz[0][i];

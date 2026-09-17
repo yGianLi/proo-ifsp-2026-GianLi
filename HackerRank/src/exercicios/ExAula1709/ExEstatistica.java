@@ -13,6 +13,9 @@ public class ExEstatistica {
         System.out.println(Metodo.Variancia(valores));
         System.out.println(Metodo.DesvioPadrao(valores));
 
+
+
+
     }
 
 
