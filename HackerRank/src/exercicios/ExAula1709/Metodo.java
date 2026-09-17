@@ -11,7 +11,6 @@ public class Metodo {
     }
 
     public static double Variancia(double[]valores){
-        double soma = 0.0;
         double media = Metodo.media(valores);
         double somaDiferencasQuadrado = 0.0;
         for (double v : valores) {
