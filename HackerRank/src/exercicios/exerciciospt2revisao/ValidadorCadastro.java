@@ -10,7 +10,9 @@ public class ValidadorCadastro {
             System.out.println("Nome Invalido!");
         }else{
             System.out.println(t1.toUpperCase());
+            System.out.println(t1.length());
         }
+
 
     }
 
