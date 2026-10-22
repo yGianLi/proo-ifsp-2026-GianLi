@@ -26,7 +26,12 @@ public class Gerente extends Funcionario{
     public String toString(){
         String mensagem = super.toString();
         return "Gerente: \n" + mensagem + "\nNum. funcionarios: " + numeroDeFuncionarios;
-
+    }
+    @Override
+    public double getSalario(){
+        double salario = super.getSalario();
+        double valorBonus = getBonus() * salario;
+        return (salario + valorBonus);
     }
 
 

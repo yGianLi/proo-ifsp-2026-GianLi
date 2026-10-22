@@ -17,7 +17,7 @@ public class Funcionario extends Object{
         this("Funcionario", "999", 2000.0);
     }
 
-    public double getsalarioBase() {
+    public double getSalario() {
         return salarioBase;
     }
 
