@@ -9,7 +9,7 @@ public class TesteFuncionario {
 
         System.out.println(f);
 
-        Gerente g = new Gerente();
+        Gerente g = new Gerente("Gian", "333", 6000.0, 10);
         System.out.println(g);
     }
 
