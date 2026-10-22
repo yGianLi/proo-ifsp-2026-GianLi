@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fcccb645-9024-4606-b515-1b0e98ac3ec2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="heranca" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000013495043" />
+      <entry key="MS500" value="1.0937037286580238" />
+      <entry key="S2" value="5.067992636519707" />
+      <entry key="S5" value="13.51980475690975" />
+      <entry key="S10" value="21.158369554219032" />
+      <entry key="S30" value="30.39199990754318" />
+      <entry key="S60" value="37.39735916985282" />
+      <entry key="M2" value="48.905655323298745" />
+      <entry key="M5" value="69.3712687370522" />
+      <entry key="M10" value="99.0617468547765" />
+      <entry key="M15" value="131.12903324902763" />
+      <entry key="M30" value="221.83439177646304" />
+      <entry key="H1" value="375.230825349144" />
+      <entry key="H2" value="608.363057496579" />
+      <entry key="H4" value="863.2858648539402" />
+      <entry key="D1" value="1240.0162053789431" />
+      <entry key="W1" value="1328.4074206654682" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="7.409132687855581E-260" />
+      <entry key="S5" value="2.227957740696411E-104" />
+      <entry key="S10" value="1.4926344966857803E-52" />
+      <entry key="S30" value="5.304581888839122E-18" />
+      <entry key="S60" value="2.3031677943300443E-9" />
+      <entry key="M2" value="4.7991331060898776E-5" />
+      <entry key="M5" value="0.018740369951457708" />
+      <entry key="M10" value="0.14103002278410057" />
+      <entry key="M15" value="0.2976435864814204" />
+      <entry key="M30" value="0.8239360804205338" />
+      <entry key="H1" value="2.1073685894770535" />
+      <entry key="H2" value="4.759059476361336" />
+      <entry key="H4" value="8.116443269198507" />
+      <entry key="D1" value="13.472496187676986" />
+      <entry key="W1" value="14.769920844448544" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.0996471625730085E-8" />
+      <entry key="MS500" value="0.11685507677289898" />
+      <entry key="S2" value="4.445371615457435" />
+      <entry key="S5" value="13.179471404730412" />
+      <entry key="S10" value="20.96138329174438" />
+      <entry key="S30" value="30.317131709142135" />
+      <entry key="S60" value="37.356468227996174" />
+      <entry key="M2" value="48.88242712280678" />
+      <entry key="M5" value="69.37848724268126" />
+      <entry key="M10" value="99.19470476636944" />
+      <entry key="M15" value="131.4193689604193" />
+      <entry key="M30" value="222.6515450414277" />
+      <entry key="H1" value="377.33186636930077" />
+      <entry key="H2" value="613.1165340429548" />
+      <entry key="H4" value="871.3981155410252" />
+      <entry key="D1" value="1253.487644339757" />
+      <entry key="W1" value="1343.177178248018" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IScGIvXZvz28sYX8YliE7rwfqr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Array1D.executor": "Run",
+    "Application.Array2D.executor": "Run",
+    "Application.EstatisticaArray.executor": "Run",
+    "Application.ExtratorEmail.executor": "Run",
+    "Application.Teste.executor": "Run",
+    "Application.TesteListaDeCompras.executor": "Run",
+    "Application.TesteProduto.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gianl\IdeaProjects\proo-ifsp-2026-GianLi\HackerRank\src\Aula" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="proo-ifsp-2026-GianLi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="proo-ifsp-2026-GianLi" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcccb645-9024-4606-b515-1b0e98ac3ec2" name="Changes" comment="" />
+      <created>1787761312653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787761312653</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
