@@ -23,9 +23,8 @@ public class Funcionario {
     }
 
     @Override
-    public String toString(){
-        return (nome + " " + cpf + " " + "R$: " + salario);
-
+    public String toString() {
+        return nome + " (" + cpf + ") - R$ " + salario;
     }
 
 

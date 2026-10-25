@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcccb645-9024-4606-b515-1b0e98ac3ec2" name="Changes" comment="" />
+    <list default="true" id="fcccb645-9024-4606-b515-1b0e98ac3ec2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Desenvolvedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Semana10.md" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Semana10.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,69 +31,75 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yGianLi/proo-ifsp-2026-GianLi.git",
-    "accountId": "ea1617e3-fa84-4e35-9b7a-ec2671c7af64"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yGianLi&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yGianLi/proo-ifsp-2026-GianLi.git&quot;,
+    &quot;accountId&quot;: &quot;ea1617e3-fa84-4e35-9b7a-ec2671c7af64&quot;
+  }
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0003703456150663" />
-      <entry key="MS500" value="1.2554124299997038" />
-      <entry key="S2" value="2.1453359138805252" />
-      <entry key="S5" value="2.59422962072461" />
-      <entry key="S10" value="2.784521927249498" />
-      <entry key="S30" value="3.2956698315879227" />
-      <entry key="S60" value="6.996160987828426" />
-      <entry key="M2" value="16.79364077048354" />
-      <entry key="M5" value="41.38030905302852" />
-      <entry key="M10" value="77.29223000845076" />
-      <entry key="M15" value="111.73801357979796" />
-      <entry key="M30" value="207.12002117698057" />
-      <entry key="H1" value="367.4120669729093" />
-      <entry key="H2" value="609.808922853895" />
-      <entry key="H4" value="877.5397604007802" />
-      <entry key="D1" value="1279.084833073942" />
-      <entry key="W1" value="1374.1910582367227" />
+      <entry key="MS100" value="1.0830634222243853" />
+      <entry key="MS500" value="1.7410458904546944" />
+      <entry key="S2" value="2.8412528163735784" />
+      <entry key="S5" value="3.9703769156716273" />
+      <entry key="S10" value="5.966796293837816" />
+      <entry key="S30" value="10.005078292060833" />
+      <entry key="S60" value="13.033233792559221" />
+      <entry key="M2" value="21.71754561967331" />
+      <entry key="M5" value="51.101598709840566" />
+      <entry key="M10" value="92.75254490951387" />
+      <entry key="M15" value="130.1157709768785" />
+      <entry key="M30" value="230.00989525553624" />
+      <entry key="H1" value="395.1079639849128" />
+      <entry key="H2" value="643.0490995809186" />
+      <entry key="H4" value="917.8442666803907" />
+      <entry key="D1" value="1332.8022429646358" />
+      <entry key="W1" value="1431.5340407375982" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="4.3441394724188055E-152" />
-      <entry key="S10" value="2.084259933985876E-76" />
-      <entry key="S30" value="5.929034262457375E-26" />
-      <entry key="S60" value="2.434960833865175E-13" />
-      <entry key="M2" value="4.934532298118907E-7" />
-      <entry key="M5" value="0.003003387992844607" />
-      <entry key="M10" value="0.05645835447980204" />
-      <entry key="M15" value="0.1616742875037547" />
-      <entry key="M30" value="0.6072474986201484" />
-      <entry key="H1" value="1.8091584678003167" />
-      <entry key="H2" value="4.4094983636155405" />
-      <entry key="H4" value="7.812675461953596" />
-      <entry key="D1" value="13.387117455970843" />
-      <entry key="W1" value="14.75651283445712" />
+      <entry key="MS500" value="1.0958055731664067E-167" />
+      <entry key="S2" value="1.8194217253185345E-42" />
+      <entry key="S5" value="2.0136006859602705E-17" />
+      <entry key="S10" value="4.487316220147929E-9" />
+      <entry key="S30" value="0.0016494110196765257" />
+      <entry key="S60" value="0.040612941529476844" />
+      <entry key="M2" value="0.20152657508203084" />
+      <entry key="M5" value="0.5280780821420165" />
+      <entry key="M10" value="0.7611570293402345" />
+      <entry key="M15" value="0.9258467512172448" />
+      <entry key="M30" value="1.4178450875963546" />
+      <entry key="H1" value="2.620758542833952" />
+      <entry key="H2" value="5.213664548501501" />
+      <entry key="H4" value="8.647794690141236" />
+      <entry key="D1" value="14.341240102542645" />
+      <entry key="W1" value="15.74931105950285" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.4694043141541706E-4" />
-      <entry key="MS500" value="0.3122122005342597" />
-      <entry key="S2" value="1.5728493871567895" />
-      <entry key="S5" value="2.2985688264031037" />
-      <entry key="S10" value="2.6223627803736047" />
-      <entry key="S30" value="3.2373611541242333" />
-      <entry key="S60" value="6.963213630070842" />
-      <entry key="M2" value="16.77268023484283" />
-      <entry key="M5" value="41.370688751129826" />
-      <entry key="M10" value="77.3394176892831" />
-      <entry key="M15" value="111.8915235052982" />
-      <entry key="M30" value="207.72008100016137" />
-      <entry key="H1" value="369.2146747408695" />
-      <entry key="H2" value="614.212682868317" />
-      <entry key="H4" value="885.3481158655534" />
-      <entry key="D1" value="1292.470852393609" />
-      <entry key="W1" value="1388.9474011507018" />
+      <entry key="MS100" value="0.9249455543844483" />
+      <entry key="MS500" value="1.6890653676956269" />
+      <entry key="S2" value="2.8200209987001728" />
+      <entry key="S5" value="3.956980543678534" />
+      <entry key="S10" value="5.954454394214996" />
+      <entry key="S30" value="9.99856774131736" />
+      <entry key="S60" value="13.066987075883087" />
+      <entry key="M2" value="21.90966316396465" />
+      <entry key="M5" value="51.6182548197005" />
+      <entry key="M10" value="93.50353741203139" />
+      <entry key="M15" value="131.03242245772674" />
+      <entry key="M30" value="231.4198054563496" />
+      <entry key="H1" value="397.7217226610425" />
+      <entry key="H2" value="648.2567622893197" />
+      <entry key="H4" value="926.487579983417" />
+      <entry key="D1" value="1347.142347190239" />
+      <entry key="W1" value="1447.2831760416955" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -102,55 +114,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Array1D.executor": "Run",
-    "Application.Array2D.executor": "Run",
-    "Application.EstatisticaArray.executor": "Run",
-    "Application.ExtratorEmail.executor": "Run",
-    "Application.Teste.executor": "Run",
-    "Application.TesteListaDeCompras.executor": "Run",
-    "Application.TesteProduto.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Array1D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array2D.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstatisticaArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExtratorEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteListaDeCompras.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteProduto.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gianl\IdeaProjects\proo-ifsp-2026-GianLi\HackerRank\src\Aula" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="proo-ifsp-2026-GianLi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="proo-ifsp-2026-GianLi" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

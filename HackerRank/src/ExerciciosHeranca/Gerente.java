@@ -11,10 +11,12 @@ public class Gerente extends Funcionario{
     public int getNumeroFuncionarios() { return numeroFuncionarios; }
 
     @Override
-
     public double calcularBonus(){
         return getSalario() * 0.20 + (100 * numeroFuncionarios);
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString() + " - gerencia " + numeroFuncionarios;
+    }
 }
