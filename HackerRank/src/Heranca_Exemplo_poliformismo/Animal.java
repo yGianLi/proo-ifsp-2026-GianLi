@@ -1,6 +1,6 @@
 package Heranca_Exemplo_poliformismo;
 
-public class Animal implements Sonoro{
+public abstract class Animal implements Sonoro{
     private double peso;
     private String nome;
 
