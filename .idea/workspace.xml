@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcccb645-9024-4606-b515-1b0e98ac3ec2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Pato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Desenvolvedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Semana10.md" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/ExerciciosHeranca/Semana10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/Loja/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/Loja/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/Loja/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/Loja/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Roteiros/roteiro07_pt2.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Roteiros/roteiro07_pt2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proo-ifsp-2026-GianLi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proo-ifsp-2026-GianLi.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +44,12 @@
     &quot;assignee&quot;: &quot;yGianLi&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/yGianLi/proo-ifsp-2026-GianLi.git&quot;,
-    &quot;accountId&quot;: &quot;ea1617e3-fa84-4e35-9b7a-ec2671c7af64&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yGianLi/proo-ifsp-2026-GianLi.git",
+    "accountId": "e2ce8c4f-277b-41e1-8b68-8953dffd3d0e"
   }
-}</component>
+}]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0830634222243853" />
@@ -114,40 +121,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Array1D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Array2D.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EstatisticaArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExtratorEmail.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteListaDeCompras.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TesteProduto.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Array1D.executor": "Run",
+    "Application.Array2D.executor": "Run",
+    "Application.EstatisticaArray.executor": "Run",
+    "Application.ExtratorEmail.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Teste.executor": "Run",
+    "Application.TesteListaDeCompras.executor": "Run",
+    "Application.TesteProduto.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bv3071251\IdeaProjects\proo-ifsp-2026-GianLi" />
+      <recent name="C:\Users\bv3071251\IdeaProjects\proo-ifsp-2026-GianLi\.idea" />
+      <recent name="C:\Users\bv3071251\IdeaProjects\proo-ifsp-2026-GianLi\HackerRank" />
       <recent name="C:\Users\gianl\IdeaProjects\proo-ifsp-2026-GianLi\HackerRank\src\Aula" />
     </key>
   </component>
