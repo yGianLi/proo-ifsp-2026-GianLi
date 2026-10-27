@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcccb645-9024-4606-b515-1b0e98ac3ec2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Pato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo_poliformismo/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/Loja/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/Loja/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/Loja/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/Loja/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Roteiros/roteiro07_pt2.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Roteiros/roteiro07_pt2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proo-ifsp-2026-GianLi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/proo-ifsp-2026-GianLi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo_poliformismo/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo_poliformismo/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo_poliformismo/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo/Pato.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/Heranca_Exemplo_poliformismo/Pato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Heranca_Exemplo/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Heranca_Exemplo/Cachorro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Heranca_Exemplo/Gato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Heranca_Exemplo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proo-ifsp-2026-GianLi/Heranca_Exemplo/Pato.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>

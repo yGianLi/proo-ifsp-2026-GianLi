@@ -1,6 +1,6 @@
-package Heranca_Exemplo;
+package Heranca_Exemplo_poliformismo;
 
-public class Animal {
+public class Animal implements Sonoro{
     private double peso;
     private String nome;
 
@@ -21,8 +21,9 @@ public class Animal {
         return peso;
     }
 
+    @Override
     public void emitirSom(){
-        System.out.println("dksakjdoa");;
+        System.out.println("abu...");;
     }
 
 }

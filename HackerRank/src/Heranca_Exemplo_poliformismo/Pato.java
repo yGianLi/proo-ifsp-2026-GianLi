@@ -1,4 +1,4 @@
-package Heranca_Exemplo;
+package Heranca_Exemplo_poliformismo;
 
 public class Pato extends Animal{
 
