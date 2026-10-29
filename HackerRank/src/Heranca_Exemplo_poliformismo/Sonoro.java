@@ -3,6 +3,7 @@ package Heranca_Exemplo_poliformismo;
 public interface Sonoro {
     // descreve o que será realizado
     // são públicos e abstratos (sem corpo)
-    void emitirSom();
+    public abstract void emitirSom();
 
+    default void desligarSom();
 }
