@@ -5,5 +5,4 @@ public interface Sonoro {
     // são públicos e abstratos (sem corpo)
     public abstract void emitirSom();
 
-    default void desligarSom();
 }

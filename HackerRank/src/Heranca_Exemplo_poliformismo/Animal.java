@@ -25,9 +25,6 @@ public abstract class Animal implements Sonoro{
     public void emitirSom(){
         System.out.println("abu...");;
     }
-    @Override
-    public void desligarSom(){
-        System.out.println("desligando...");;
-    }
+
 
 }
