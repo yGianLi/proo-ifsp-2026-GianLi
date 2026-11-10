@@ -22,6 +22,18 @@ public class Acao {
         return ticker;
     }
 
+    public void registraInteresses(AcaoObserver interessado){
+        interessados.add(interessado);
+    }
+    public void cancelaInteresse(AcaoObserver interessado){
+        interessados.remove(interessado);
+    }
 
-
+    public void setValor(double valor) {
+        this.valor = valor;
+        // notifica os assinantes
+        for(AcaoObserver obs : interessados){
+            obs.notificaAlteracao(this);
+        }
+    }
 }
