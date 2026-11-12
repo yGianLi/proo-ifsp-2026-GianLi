@@ -6,7 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="fcccb645-9024-4606-b515-1b0e98ac3ec2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HackerRank/src/observer/Acao.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/observer/Acao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/adapter/ControDePonto.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/adapter/ControDePonto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/adapter/ControleDePontoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/adapter/ControleDePontoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/adapter/ControleDePontoNovo.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/adapter/ControleDePontoNovo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/adapter/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/adapter/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/adapter/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/adapter/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/factory/Emissor.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/factory/Emissor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/factory/EmissorEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/factory/EmissorEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/factory/EmissorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/factory/EmissorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/factory/EmissorSMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/factory/EmissorSMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/factory/TesteEmissorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/factory/TesteEmissorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/factory/TesteEmissores.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/factory/TesteEmissores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/observer/Acao.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/Acao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/observer/AcaoObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/AcaoObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/observer/Corretora.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/Corretora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/observer/Jornal.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/Jornal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/observer/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/singleton/ConexaoBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/singleton/ConexaoBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRank/src/singleton/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRank/src/padroes/observer/singleton/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +133,9 @@
   "keyToString": {
     "Application.Array1D.executor": "Run",
     "Application.Array2D.executor": "Run",
+    "Application.Divisao.executor": "Run",
     "Application.EstatisticaArray.executor": "Run",
+    "Application.Excecoes.executor": "Run",
     "Application.ExtratorEmail.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Teste.executor": "Run",
